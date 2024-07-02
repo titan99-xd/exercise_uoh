@@ -1,9 +1,9 @@
 ```mermaid
 
 sequenceDiagram
+    participant user
     participant browser
     participant server
-    participant user
 
 
     user->>browser: Write note in text field and click Save button
